@@ -38,6 +38,10 @@ android {
         jvmTarget = "17"
     }
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     // Allow JUnit 5 on Android unit tests via the de.mannodermaus plugin alternative;
     // here we use the standard JUnit 4 runner with JUnit 5 via vintage engine.
     testOptions {
@@ -91,6 +95,10 @@ dependencies {
     // Production
     implementation(libs.core.ktx)
     implementation(libs.appcompat)
+    implementation(libs.material)
+    implementation(libs.constraintlayout)
+    implementation(libs.recyclerview)
+    implementation(libs.activity.ktx)
     implementation(libs.lifecycle.viewmodel.ktx)
     implementation(libs.lifecycle.runtime.ktx)
     implementation(libs.coroutines.android)
