@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidTestAgent</string>
+    <string name="login_title">Sign In</string>
+    <string name="login_subtitle">Android Test Agent Demo</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Log In</string>
+    <string name="demo_hint">Demo: test@example.com / Password1</string>
+    <string name="user_list_title">Users</string>
+    <string name="no_users">No users found</string>
+    <string name="welcome_message">Welcome, %1$s!</string>
+</resources>
