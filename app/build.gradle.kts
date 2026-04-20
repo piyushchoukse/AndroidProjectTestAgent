@@ -25,7 +25,7 @@ android {
             isMinifyEnabled = false
         }
         debug {
-            enableUnitTestCoverage = true
+            isMinifyEnabled = false
         }
     }
 
